@@ -1,4 +1,7 @@
-# Gradle for Android and Java Final Project
+# Build it Bigger - Udacity Android Nanodegree Project
+
+# Udacity's Instructions as below
+## Gradle for Android and Java Final Project
 
 In this project, you will create an app with multiple flavors that uses
 multiple libraries and Google Cloud Endpoints. The finished app will consist
@@ -6,25 +9,6 @@ of four modules. A Java library that provides jokes, a Google Cloud Endpoints
 (GCE) project that serves those jokes, an Android Library containing an
 activity for displaying jokes, and an Android app that fetches jokes from the
 GCE module and passes them to the Android Library for display.
-
-## Why this Project
-
-As Android projects grow in complexity, it becomes necessary to customize the
-behavior of the Gradle build tool, allowing automation of repetitive tasks.
-Particularly, factoring functionality into libraries and creating product
-flavors allow for much bigger projects with minimal added complexity.
-
-## What Will I Learn?
-
-You will learn the role of Gradle in building Android Apps and how to use
-Gradle to manage apps of increasing complexity. You'll learn to:
-
-* Add free and paid flavors to an app, and set up your build to share code between them
-* Factor reusable functionality into a Java library
-* Factor reusable Android functionality into an Android library
-* Configure a multi project build to compile your libraries and app
-* Use the Gradle App Engine plugin to deploy a backend
-* Configure an integration test suite that runs against the local App Engine development server
 
 ## How Do I Complete this Project?
 
@@ -166,3 +150,13 @@ Once you have a functioning project, consider adding more features to test your 
 * Make the free app variant display interstitial ads between the main activity and the joke-displaying activity.
 * Have the app display a loading indicator while the joke is being fetched from the server.
 * Write a Gradle task that starts the GCE dev server, runs all the Android tests, and shuts down the dev server.
+
+## Screenshots
+<div align="center">
+    <img src="https://github.com/angad305/build-it-bigger-udacity/blob/master/Screenshots/Google%20Pixel%203%201.png" width="400px"</img> 
+</div>
+    <img src="https://github.com/angad305/build-it-bigger-udacity/blob/master/Screenshots/Google%20Pixel%203%202.png" width="400px"</img> 
+</div>
+<div align="center">
+    <img src="https://github.com/angad305/build-it-bigger-udacity/blob/master/Screenshots/Google%20Pixel%203%203.png" width="400px"</img> 
+</div>
